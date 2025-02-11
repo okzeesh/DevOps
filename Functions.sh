@@ -13,3 +13,10 @@ greet() {
 
 greet "Zeeshan"
 
+# Function for multiple arguments
+
+greetPeople() {
+    echo "Hello, $1! and $2!"
+}
+
+greetPeople "Zeeshan" "Umar"
