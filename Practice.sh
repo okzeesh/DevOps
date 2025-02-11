@@ -1,4 +1,6 @@
 #!/bin/bash
-z="Zeeshan"
-echo "My name is $z"
- 
+
+for i in {1..5}
+do
+    echo "Iteration $i"
+done
