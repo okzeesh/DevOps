@@ -1,8 +1,9 @@
+#this file will be used in the main script to add two numbers
+
 #!/bin/bash
 
-sum() {
-    echo $(( $1 + $2 ))
+add() {
+    result=$(( $1 + $2 ))
+    echo "$result"
 }
 
-result=$(sum 4 6)
-echo "Sum: $result"
