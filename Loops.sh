@@ -15,4 +15,12 @@ do
     echo "Iteration $i"
 done
 
+echo "Loop Method : While"
+
+i=1
+while [ $i -le 6 ] ; do
+    echo "Iteration $i"
+    i=$((i+1))
+done
+
 
